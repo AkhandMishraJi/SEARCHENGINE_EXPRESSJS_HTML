@@ -11,6 +11,10 @@ GOOGLE : {
 'ABOUT AKHAND PRATAP MISHRA' : 'AKHAND PRATAP MISHRA IS A WEB DEVELOPER ' ,
 HOBBY : 'SINGING AND CODING'
  }
+    CHROME : {
+' BROWSER   NAME' : 'CHROME' , 
+    ABOUT_GOOGLE : 'CHROME IS AN WEB BROWSER MADE BY GOOGLE' 
+} 
 }
 app.get('/search' , (req ,res)=>{
 console.log(req.query);
